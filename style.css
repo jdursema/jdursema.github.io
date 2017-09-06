@@ -1,0 +1,225 @@
+*{
+	font-family: 'Source Sans Pro';
+	font-weight: lighter;
+	color:#F7F8F3;
+	font-size: 125%;
+}
+
+body{
+	background-image: url("crawford-collins-185409.jpg");
+	background-position: right top;
+	background-size: 80vmax;
+	display: flex;
+}
+
+section{
+	display: flex;
+	align-content: flex-end;
+	width: 31vmax;
+}
+
+article{
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+}
+
+main{
+	display: flex;
+}
+
+h1{
+	font-family:'Abril Fatface';
+	font-size: 350%;
+	letter-spacing: 3pt;
+	line-height: 80%;
+	margin-top: 1%;
+}
+
+p{
+	line-height: 120%;
+}
+
+.header{
+	background: #364958;
+	height: 18vmax;
+	width: 36vmax;
+	padding-top: 1vmax;
+	padding-left: 1vmax;
+	padding-right: 1vmax; 
+	text-align: left;
+	display: block;
+}
+
+button{
+	background: none;
+	border: solid #F7F8F3 2px;
+	margin-top: 1%;
+	margin-right: 5%;
+	font-size: 90%;
+	width: 30%
+}
+
+
+main{
+	height: 57vmax;
+	width: 57vmax;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: none;
+	align-items: none;
+}
+
+div{
+	height: 19vmax;
+	width: 19vmax;
+	text-align: center;
+	padding-bottom: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+
+.restaurants{
+	background: #778DA9;	
+}
+
+.restaurant-icon{
+	width: 25%;
+}
+
+.hotel{
+	background: #89B0AE;
+}
+
+.hotel-icon{
+	width: 25%;
+}
+
+.bar{
+	background: #C1D37F;
+/*	background: #FFC857;*/
+}
+
+.bar-icon{
+	width: 25%;	
+}
+
+.outdoors{
+	background: #364958;
+}
+
+.outdoors-icon{
+	width: 25%;
+}
+
+.shopping{
+	background: #59A96A;
+}
+
+.shopping-icon{
+	width: 25%;
+}
+
+.travel{
+	background: #89B0AE;
+}
+
+.travel-icon{
+	width: 25%;
+}
+
+.info{
+	background: #59A96A;
+}
+
+.info-icon{
+	width: 25%;
+}
+
+.left{
+	margin-left: 5%;
+}
+
+.right{
+	margin-left: 110%;
+
+}
+
+.more{
+	width: 20%;
+	margin: 3%;
+
+}
+
+.pine{
+	width: 10%;
+}
+
+.lobster{
+	width: 10%;
+}
+
+
+@media screen and (max-width: 800px){
+body{
+	flex-direction: column;
+}
+
+main{
+	width:75vmax;
+}
+
+div{height: 25vmax;
+	width: 25vmax;}
+
+.header{
+	height: 24vmax;
+	width: 48vmax;
+}
+
+.more{
+	width: 5%;
+	padding: 3%;
+	margin-top: 6%;
+
+}
+.left{
+	margin-top: 90%
+}
+
+.right{margin-top: 90%;
+margin-left: 200%;
+}
+
+
+article{
+	justify-content: flex-end;
+	align-items: flex-end;
+}
+}
+
+@media screen and (max-width: 400px){
+
+div{height: 25vmax;
+	width: 25vmax;}
+	}
+
+h1{
+	font-size: 200%;
+	line-height: 60%;
+}
+
+*{
+	font-size: 80%
+}
+
+body{
+	background-position: center bottom;
+	background-size: 200%;
+	height: 60vmax;
+}
+
+}
