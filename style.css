@@ -204,8 +204,9 @@ article{
 @media screen and (max-width: 400px){
 
 div{height: 25vmax;
-	width: 25vmax;}
-	}
+	width: 25vmax;
+}
+
 
 h1{
 	font-size: 200%;
